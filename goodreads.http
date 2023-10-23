@@ -1,19 +1,20 @@
 GET http://localhost:3000/books/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbmF5MTIzIiwiaWF0IjoxNjk3OTk3NjEwfQ.ANJltdMbwYP0Yc686GftJdoVTm_PYGWzUbLueqk9jOw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbmF5MTIzNDU2NyIsImlhdCI6MTY5ODA4ODMxN30.SQpIUzcjnSgd92tamMRdY0ZAsCEsP-sKDichoOj4Yes
 ###
 
 GET http://localhost:3000/books/1/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbmF5MTIzIiwiaWF0IjoxNjk3OTk3NjEwfQ.ANJltdMbwYP0Yc686GftJdoVTm_PYGWzUbLueqk9jOw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbmF5MTIzNDU2NyIsImlhdCI6MTY5ODA4ODMxN30.SQpIUzcjnSgd92tamMRdY0ZAsCEsP-sKDichoOj4Yes
 ###
 
 POST http://localhost:3000/users/
 Content-Type: application/json
 
 {    
-    "username": "vinay123",
+    "username": "vinay12345678",
+    "name":"vinay",
     "password": "rahul@456",
     "gender":"male",
-    "location":"hyderabad"
+    "location":"hyderaiiad"
 }
 
 
@@ -23,6 +24,10 @@ POST http://localhost:3000/login/
 Content-Type: application/json
 
 {    
-    "username": "vinay123",
+    "username": "vinay1234567",
     "password": "rahul@456"
 }
+### 
+GET http://localhost:3000/profile/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZpbmF5MTIzNDU2NyIsImlhdCI6MTY5ODA4ODMxN30.SQpIUzcjnSgd92tamMRdY0ZAsCEsP-sKDichoOj4Yes
+
